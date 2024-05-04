@@ -1,0 +1,18 @@
+{
+    "name": "projet-4-ponzo",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "tailwindcss -i ./src/style.css -o ./src/output.css --watch"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "@tailwindcss/forms": "^0.5.7",
+        "prettier": "^3.2.5",
+        "prettier-plugin-tailwindcss": "^0.5.14",
+        "tailwindcss": "^3.4.3"
+    }
+}
